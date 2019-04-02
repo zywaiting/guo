@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="top">
+    <view class="inputView">
+        <input type="text" placeholder="请输入您的姓名" placeholder-class="ph" bindinput="setname"/>
+    </view>
+</view>
+
+<button  type="primary" bindtap="login">登录</button>

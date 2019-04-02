@@ -1,0 +1,61 @@
+/* pages/history/history.wxss */
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2.6rem;
+  align-items: center;
+  border: 1px solid darkgray;
+}
+.td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25rpx;
+  border: 1px solid darkgray;
+  height: 2.6rem;
+}
+.td1 {
+  width:25%;
+}
+.td2 {
+  width:40%;
+}
+.td3 {
+  width:10%;
+}
+.td4 {
+  width:25%;
+}
+.bg-w{
+  background: snow;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th {
+  justify-content: center;
+  background:darkred;
+  color: #fff;
+  display: flex;
+  height: 2.6rem;
+  align-items: center;
+  font-size: 35rpx;
+  border: 1px solid darkgray;
+}
+.th1 {
+ width: 25%;
+}
+.th2 {
+ width: 40%;
+}
+.th3 {
+ width: 10%;
+}
+.th4 {
+ width: 25%;
+}

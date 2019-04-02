@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/data/data",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小郭",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF3300",
+    "color": "#999999",
+    "list": [
+      {
+        "pagePath": "pages/data/data",
+        "text": "未确认",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_on.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "images/personal.png",
+        "selectedIconPath": "images/personal_on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
